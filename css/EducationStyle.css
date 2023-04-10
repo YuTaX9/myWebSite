@@ -1,0 +1,50 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F2F2F2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #0072C6;
+    color: #FFF;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 32px;
+  }
+  
+  /* Main styles */
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-top: 40px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+  }
+  

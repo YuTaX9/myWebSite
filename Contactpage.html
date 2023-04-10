@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Contact bassam alghamdi through social media or email.">
+        <title>Contact Me - bassam alghamdi</title>
+        <link rel="stylesheet" href="/Assignment1/css/ContactStyle.css">
+    </head>
+    <body>
+        <nav class="social-media">
+            <h2>You can contact me through one of the following social networking sites:</h2>
+            <ul>
+                <li><a href="https://twitter.com/K0_YKT"><i class="fab fa-twitter"></i>Twitter</a></li>
+                <li><a href="https://www.instagram.com/yuta.x9/"><i class="fab fa-instagram"></i>Instagram</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h4>OR you can send to my E-mail</h4>
+            <form method="post" action="contact.php">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+              
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+              
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="6" required></textarea><br><br>
+              
+                <button type="submit">Send</button>
+            </form>
+        </main>
+    </body>
+</html>
